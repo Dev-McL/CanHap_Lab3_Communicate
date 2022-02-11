@@ -237,9 +237,9 @@ void draw() {
     if (gameStart) {
       textAlign(CENTER);
       text("Can you guess the state of matter?", width/2, 60);// Touch the coloured circles to change the word", width/2, 60);
-      text("State 1", 105, 620, 90);
-      text("State 2", 105, 620, 90);
-      text("State 3", 105, 620, 90);
+      text("State 1", 250, 700, 90);
+      text("State 2", 600, 700, 90);
+      text("State 3", 1100, 700, 90);
 
     } else {
 
@@ -375,9 +375,9 @@ class Water {
     createJoint(11, 15, particles);
     right.setPosition(19.7, 10.9);
     left.setPosition(11.5, 10.9);
-    bottom.setPosition(15.4, 15.6);
-    top1.setPosition(12, 6);
-    top2.setPosition(17, 6);
+    bottom.setPosition(15.7, 15.6);
+    top1.setPosition(13.2, 6);
+    top2.setPosition(18.1, 6);
     world.add(left);
     world.add(right);
     world.add(bottom);
